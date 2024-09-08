@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./popup.js"></script>
+</head>
+<body>
+  <!--div for header-->
+  <div id = "divforheader">
+  <header id = "header"><div id="title">School and University control System</div><div id = "header-container">
+    <div id="select"><p>Выберите день недели</p> 
+    <select >
+      
+       <option> </option>
+      <option value="Monday" >понедельник</option>
+      <option  value = "Tuesday">вторник</option>
+      <option  value="Wednesday" >среда</option>
+      <option  value="Thursday">четверг</option>
+      <option value="Friday" >пятница</option>
+       
+       </select></div>
+       <div id = "buttonAdd"><a><img src="/frontend/resources/free-icon-add-2393401.png"></a></div>
+       
+       
+       
+       
+       <div class="pop_up" id="pop_up">
+        <div class="pop_up_container">
+          <div class="pop_up_body">
+            <form id="formForAdd">
+              <p id ="headForForm">введите данные ученика</p>
+             <div id="fio"> <input type="text" placeholder="ФИО ученика"></div>
+           <div id="date"> <p>Дата рождения</p>
+              <input type="date" >
+           </div>
+
+              <div id="class"><p>класс ученика</p><input type="text" placeholder="1А"> </div>
+              <div id="data">
+                <div id="passport "><p>введите паспортные данные(старше 14 лет)</p>
+                <input type="text" placeholder="0000 000000"></div>
+                <div id = "snils"><p>введите данные снилс</p><input type="text" placeholder="AA 000000"></div>
+
+              </div>
+              <div id ="butAdd">
+              <button id="AddStudent"> Добавить</button></div>
+            </form>
+            <div class="pop_up_close" id = "pop_up_close">&#10006</div>
+          </div>
+        </div>
+       </div>
+
+
+
+  </div></header>
+</div>
+<!----------------------------------------------приветствие------------------------------->
+    <div id="helloing" ><a id="hello">здравуствуйте,Ярослав Морозов</a><a id="date">сегодня: 13.45.3007 ср</a><img src=""></div>
+    <!--table with classes-->
+    <div id="tablediv">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">time</th>
+            <th scope="col">class</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>9:00 - 10:00</td>
+            <td>7a</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      
+    </div>
+    
+</body>
+</html>
